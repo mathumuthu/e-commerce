@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar" id="header">
+        <div class="container nav-container">
+            <a href="index.html"> <img src="./assets/stackly-logo1.webp" alt="LOGO" class="logo"> </a>
+            <ul class="nav-links">
+                <div class="home-nav">
+                    <a href="index.html" class="home-btn active">Home</a>
+
+                    <span class="material-icons dropdown-icon" id="homeDropdownBtn">
+                        expand_more
+                    </span>
+
+                    <div class="home-select" id="homeDropdown">
+                        <a href="./HomePage2/index.html">Home Page 2</a>
+                    </div>
+                </div>
+                <li><a href="404page.html">Services</a></li>
+                <li><a href="404page.html">About</a></li>
+                <li><a href="404page.html">Blog</a></li>
+                <li><a href="404page.html">Products</a></li>
+                <li><a href="404page.html">Contact</a></li>
+                <div class="nav-actions-hid">
+                    <button id="theme-toggle" class="icon-btn" title="Dark/Light theme-toggle"><i
+                            data-feather="moon"></i>Toggle Mode</button>
+                    <a href="404page.html">
+                        <span class="material-icons icon-btn">person_outline</span> Login</a>
+                </div>
+                <div class="btn-close"><span class="material-icons">close</span></div>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle1" class="icon-btn" title="Dark/Light theme-toggle"><i
+                        data-feather="moon"></i></button>
+                <a href="404page.html">
+                    <span class="material-icons icon-btn" title="login">person_outline</span></a>
+            </div>
+            <div class="hamburger">
+                &#9776
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero-slider">
+
+            <div class="slide active">
+                <div class="slide-bg" style="background-image: url('./assets/hero1.webp');">
+                </div>
+                <div class="slide-overlay"></div>
+                <div class="container slide-content">
+                    <span class="overline">New Arrivals</span>
+                    <h1>Redefine Your <br>Everyday Style.</h1>
+                    <p>Minimalist design meets maximum comfort.</p>
+                    <a href="404page.html" class="btn btn-primary">Shop Collection</a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-bg" style="background-image: url('./assets/hero2.webp');">
+                </div>
+                <div class="slide-overlay"></div>
+                <div class="container slide-content">
+                    <span class="overline">Winter Edition</span>
+                    <h1>Urban <br>Sophistication.</h1>
+                    <p>Engineered for the city streets. Weather-resistant luxury.</p>
+                    <a href="404page.html" class="btn btn-primary">View Lookbook</a>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="slide-bg" style="background-image: url('./assets/hero3.webp');">
+                </div>
+                <div class="slide-overlay"></div>
+                <div class="container slide-content">
+                    <span class="overline">Sustainability</span>
+                    <h1>Fashion With <br>A Conscience.</h1>
+                    <p>100% Organic materials. 0% compromise on style.</p>
+                    <a href="404page.html" class="btn btn-primary">Our Mission</a>
+                </div>
+            </div>
+
+            <div class="slider-nav">
+                <button class="nav-dot active" data-slide="0"></button>
+                <button class="nav-dot" data-slide="1"></button>
+                <button class="nav-dot" data-slide="2"></button>
+            </div>
+
+        </section>
+
+        <section class="brands-section">
+            <div class="container" data-aos="fade-up" data-aos-duration="1000">
+                <p class="brand-text">Trusted by visionaries at</p>
+                <div class="brand-logos">
+                    <span>VOGUE</span><span>HYPEBEAST</span><span>GQ</span><span>FORBES</span><span>WIRED</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="trending" class="product-section">
+            <div class="container">
+                <div class="section-heading-wrapper" data-aos="fade-up">
+                    <span class="section-sub">Shop The Look</span>
+                    <h2>Trending Now</h2>
+                </div>
+
+                <div class="product-grid">
+                    <article class="product-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card-image" style="background-image: url('./assets/product1.webp');">
+                            <span class="tag">New</span>
+                        </div>
+                        <div class="card-details">
+                            <h3>Essential Cotton Tee</h3>
+                            <p class="price">$45.00</p>
+                            <a href="404page.html" class="add-btn">Add</a>
+                        </div>
+                    </article>
+                    <article class="product-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card-image" style="background-image: url('./assets/product2.webp');">
+                        </div>
+                        <div class="card-details">
+                            <h3>Utility Chore Jacket</h3>
+                            <p class="price">$120.00</p>
+                            <a href="404page.html" class="add-btn">Add</a>
+                        </div>
+                    </article>
+                    <article class="product-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card-image" style="background-image: url('./assets/product3.webp');">
+                        </div>
+                        <div class="card-details">
+                            <h3>Relaxed Fit Trousers</h3>
+                            <p class="price">$75.00</p>
+                            <a href="404page.html" class="add-btn">Add</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="collections">
+            <div class="container">
+                <div class="section-heading-wrapper" data-aos="fade-up">
+                    <span class="section-sub">Categories</span>
+                    <h2>Curated Collections</h2>
+                </div>
+
+                <div class="collection-grid">
+                    <a href="404page.html" class="collection-item tall" data-aos="zoom-in" data-aos-duration="1000"
+                        style="background-image: url('./assets/collection1.webp');">
+                        <div class="collection-content">
+                            <h3>Men's Essentials</h3><span>Shop Now</span>
+                        </div>
+                    </a>
+                    <a href="404page.html" class="collection-item" data-aos="zoom-in" data-aos-delay="200"
+                        style="background-image: url('./assets/collection2.webp');">
+                        <div class="collection-content">
+                            <h3>Women's Knitwear</h3><span>Shop Now</span>
+                        </div>
+                    </a>
+                    <a href="404page.html" class="collection-item" data-aos="zoom-in" data-aos-delay="400"
+                        style="background-image: url('./assets/collection3.webp');">
+                        <div class="collection-content">
+                            <h3>Accessories</h3><span>Shop Now</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="lookbook">
+            <div class="container">
+                <div class="section-heading-wrapper" data-aos="fade-up">
+                    <span class="section-sub">@Stackly_OFFICIAL</span>
+                    <h2>Style Inspiration</h2>
+                </div>
+
+                <div class="lookbook-grid">
+                    <div class="lookbook-item" data-aos="fade-up">
+                        <img src="./assets/style1.webp" alt="Style">
+                        <i data-feather="instagram" class="insta-icon"></i>
+                    </div>
+                    <div class="lookbook-item" data-aos="fade-up" data-aos-delay="100">
+                        <img src="./assets/style2.webp" alt="Style">
+                        <i data-feather="instagram" class="insta-icon"></i>
+                    </div>
+                    <div class="lookbook-item" data-aos="fade-up" data-aos-delay="200">
+                        <img src="./assets/style3.webp" alt="Style">
+                        <i data-feather="instagram" class="insta-icon"></i>
+                    </div>
+                    <div class="lookbook-item" data-aos="fade-up" data-aos-delay="300">
+                        <img src="./assets/style4.webp" alt="Style">
+                        <i data-feather="instagram" class="insta-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="story" class="story-section">
+            <div class="container">
+                <div class="story-image" data-aos="fade-right" style="background-image: url('./assets/about.webp');">
+                </div>
+                <div class="story-content" data-aos="fade-left">
+                    <div class="section-heading-wrapper" style="text-align: left; margin-bottom: 2rem; margin-left: 0;">
+                        <span class="section-sub">Our Origins</span>
+                        <h2>Designed for the <br>Modern Era.</h2>
+                    </div>
+                    <p>We started Stackly with a simple mission: to create clothing that feels as good as it looks.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq">
+            <div class="container">
+                <div class="section-heading-wrapper" data-aos="fade-up">
+                    <span class="section-sub">Support</span>
+                    <h2>Frequently Asked</h2>
+                </div>
+
+                <div class="faq-container">
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                        <button class="faq-question">
+                            <span>What is your return policy?</span>
+                            <i data-feather="plus" class="faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We offer a 30-day return policy for all unworn items with original tags attached. Returns
+                                are free for all domestic orders.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                        <button class="faq-question">
+                            <span>Do you ship internationally?</span>
+                            <i data-feather="plus" class="faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, we ship to over 50 countries worldwide. Shipping times vary by location but
+                                typically take 5-10 business days.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                        <button class="faq-question">
+                            <span>How do I care for my garments?</span>
+                            <i data-feather="plus" class="faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Most of our items are made from organic cotton and should be washed on cold and hung to
+                                dry to preserve their fit and color.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container newsletter-box" data-aos="zoom-in">
+                <h2>Join the Inner Circle</h2>
+                <p>Get early access to drops and 10% off your first order.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email" id="newsletterEmail">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                    <small class="form-message " id="formMessage"></small>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-col brand-col" data-aos="fade-up" data-aos-delay="0">
+                    <img src="./assets/stackly-logo1.webp" alt="LOGO" class="logo">
+                    <p>Redefining the standard of modern apparel. Sustainable materials, ethical production, and
+                        timeless design for the conscious creator.</p>
+                    <div class="footer-socials">
+                        <a href="404page.html" aria-label="Instagram"><i data-feather="instagram"></i></a>
+                        <a href="404page.html" aria-label="Twitter"><i data-feather="twitter"></i></a>
+                        <a href="404page.html" aria-label="Facebook"><i data-feather="facebook"></i></a>
+                        <a href="404page.html" aria-label="Youtube"><i data-feather="youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col" data-aos="fade-up" data-aos-delay="100">
+                    <h4>Pages</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="404page.html">Services</a></li>
+                        <li><a href="404page.html">About</a></li>
+                        <li><a href="404page.html">Blog</a></li>
+                        <li><a href="404page.html">Products</a></li>
+                        <li><a href="404page.html">contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col" data-aos="fade-up" data-aos-delay="100">
+                    <h4>Shop</h4>
+                    <ul class="footer-links">
+                        <li><a href="404page.html">New Arrivals</a></li>
+                        <li><a href="404page.html">Best Sellers</a></li>
+                        <li><a href="404page.html">Men</a></li>
+                        <li><a href="404page.html">Women</a></li>
+                        <li><a href="404page.html">Accessories</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="404page.html">Help Center</a></li>
+                        <li><a href="404page.html">Shipping & Returns</a></li>
+                        <li><a href="404page.html">Size Guide</a></li>
+                        <li><a href="404page.html">Track Order</a></li>
+                        <li><a href="404page.html">Gift Cards</a></li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2025 Stackly Theme. All rights reserved.
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js" defer></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 800,
+            easing: 'ease-out-cubic',
+            once: true,
+        });
+
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item) otherItem.classList.remove('active');
+                });
+
+                item.classList.toggle('active');
+            });
+        });
+
+        feather.replace();
+        const slides = document.querySelectorAll('.slide');
+        const dots = document.querySelectorAll('.nav-dot');
+        let currentSlide = 0;
+        const slideInterval = 3000;
+
+        function showSlide(index) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+            slides[index].classList.add('active');
+            dots[index].classList.add('active');
+
+            currentSlide = index;
+        }
+
+        function nextSlide() {
+            let newIndex = (currentSlide + 1) % slides.length;
+            showSlide(newIndex);
+        }
+
+        let slideTimer = setInterval(nextSlide, slideInterval);
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                clearInterval(slideTimer);
+                showSlide(index);
+                slideTimer = setInterval(nextSlide, slideInterval);
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+        const homeDropdownBtn = document.getElementById("homeDropdownBtn");
+        const homeDropdown = document.getElementById("homeDropdown");
+        const icon = document.querySelector(".dropdown-icon");
+
+        homeDropdownBtn.addEventListener("click", () => {
+            homeDropdown.classList.toggle("show");
+            icon.classList.toggle("rotate");
+        });
+        document.addEventListener("click", (e) => {
+            if (!homeDropdown.contains(e.target) && !homeDropdownBtn.contains(e.target)) {
+                homeDropdown.classList.remove("show");
+                icon.classList.remove("rotate");
+            }
+        });
+        const form = document.getElementById("newsletterForm");
+        const emailInput = document.getElementById("newsletterEmail");
+        const message = document.getElementById("formMessage");
+
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const email = emailInput.value.trim();
+            message.className = "form-message";
+
+            if (!email) {
+                alert("Please enter your email address.");
+                return;
+            }
+
+            if (!isValidEmail(email)) {
+                alert("Please enter a valid email address.");
+                return;
+            }
+
+            showSuccess("You're in! Thanks for subscribing.");
+            emailInput.value = "";
+        });
+
+        function isValidEmail(email) {
+            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        }
+
+        function showError(text) {
+            message.textContent = text;
+            message.classList.add("error");
+        }
+
+        function showSuccess(text) {
+            // message.textContent = text;
+            window.location.href = '404page.html';
+        }
+        document.body.style.overflow = "hidden";
+
+    </script>
+</body>
+
+</html>
